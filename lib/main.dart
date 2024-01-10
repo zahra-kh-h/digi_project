@@ -25,7 +25,11 @@ class Home extends StatelessWidget {
       body: SafeArea(
         child: Container(
           alignment: Alignment.center,
-          child: Image.asset("assets/images/digi.jpg"),
+          child: Column(
+            children: [
+              Image.asset("assets/images/digi.jpg"),
+            ],
+          ),
         ),
       ),
     );
